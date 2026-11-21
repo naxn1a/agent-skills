@@ -1,4 +1,4 @@
-# 9arm-skills
+# Agent skills
 
 Agent skills loaded by Claude Code.
 
@@ -20,7 +20,7 @@ Each skill is its own directory containing a `SKILL.md` (with YAML frontmatter �
 ### With `npx skills` (Recommended - works for every agent)
 
 ```bash
-npx skills add thananon/9arm-skills
+npx skills add naxn1a/agent-skills
 ```
 
 ### Alternative - Bash script
@@ -51,6 +51,9 @@ List every `SKILL.md` in the repo:
 - **[management-talk](./skills/productivity/management-talk/SKILL.md)** — Rewrite engineer-to-engineer content for engineering-org leadership and shape it for the channel it's going to (JIRA, Slack, async standup, email, meeting talking-points).
 - **[qwenchance](./skills/productivity/qwenchance/SKILL.md)** — Keeps a long Claude Code task on-track — breaks loops, bounds internal reasoning, watches the context budget, and triggers a clean handoff before the window fills.
 
-### Misc
+## Recommend
 
-_(none yet)_
+- **[ponytail](https://github.com/dietrichgebert/ponytail)** — Lazy-senior-dev mode: makes the smallest complete code change, avoiding extra features, abstractions and dependencies.
+- **[caveman](https://github.com/juliusbrussee/caveman)** — Terse reply style that cuts filler words to save output tokens while keeping all technical detail.
+- **[karpathy](https://github.com/multica-ai/andrej-karpathy-skills)** — Coding guidelines from Karpathy's LLM pitfalls: avoid overcomplication, make surgical changes, state assumptions, define verifiable goals.
+- **[pstack](https://github.com/cursor/plugins/tree/main/pstack)** — Engineering skills from a Cursor/React core dev: write less but higher-quality code, enabling parallel agents with rigorous, verifiable workflows.

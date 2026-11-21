@@ -1,11 +1,4 @@
 {
-  "name": "9arm-skills",
-  "skills": [
-    "./skills/engineering/debug-mantra",
-    "./skills/engineering/post-mortem",
-    "./skills/engineering/scrutinize",
-    "./skills/engineering/qwen-agent",
-    "./skills/productivity/management-talk",
-    "./skills/productivity/qwenchance"
-  ]
+  "name": "make-my-own",
+  "version": "1.0.0"
 }
